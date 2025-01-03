@@ -2,6 +2,7 @@ import os
 def cal(x):
     if x>6:
      print("Please choose a valid option)")
+     os.system('pause')
      return
     os.system('cls')
     print("Please Enter Two Number:")
